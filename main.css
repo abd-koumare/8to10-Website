@@ -1,0 +1,117 @@
+body {
+  font-family: 'Roboto', sans-serif, 'Helvetica';
+}
+
+.branding {
+  text-align: center;
+}
+.branding .brand-img {
+  width: 100px;
+  height: 100px;
+  margin-top: 95px;
+  margin-bottom: 65px;
+}
+.branding .hero {
+  color: #000;
+  font-size: 70px;
+}
+.branding p {
+  color: gray;
+  font-size: 18px;
+  line-height: 30px;
+}
+.branding .about-us {
+  margin-top: 150px;
+}
+.branding .about-us .headline {
+  color: #ffb74d;
+}
+.branding .about-us .gift img {
+  height: 150px;
+  width: 200px;
+  margin: 20px;
+}
+.branding .about-us .footer {
+  margin-top: 45px;
+}
+.branding .about-us .footer .top {
+  text-align: center;
+}
+.branding .about-us .footer .top li {
+  list-style-type: none;
+  margin: 20px;
+  font-weight: bold;
+  display: inline-block;
+  color: #000;
+}
+.branding .about-us .footer .top li a {
+  color: #000;
+  font-weight: bold;
+}
+.branding .about-us .footer .top li a:hover {
+  text-decoration: underline;
+  color: gray;
+}
+.branding .about-us .footer div {
+  color: #71c9ce;
+}
+
+.call-to-action-btn-wrapper {
+  margin-top: 45px;
+}
+.call-to-action-btn-wrapper .btn-download {
+  width: 300px;
+  border-radius: 35px;
+}
+.call-to-action-btn-wrapper .btn-download .arrow-down {
+  position: relative;
+  top: 2px;
+  left: -8px;
+}
+.call-to-action-btn-wrapper .btn-contact-us {
+  width: 300px;
+  border-radius: 35px;
+}
+.call-to-action-btn-wrapper .btn-contact-us .email-icon {
+  position: relative;
+  top: 4px;
+  left: -14px;
+}
+
+.btn-call-to-action {
+  display: inline-block;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: -webkit-gradient(linear, left top, right top, from(#ffb74d), to(#71c9ce));
+  background: linear-gradient(90deg, #ffb74d, #71c9ce);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+.btn-call-to-action:hover {
+  -webkit-animation: swing;
+          animation: swing;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@media screen and (max-width: 425px) {
+  .btn-call-to-action {
+    width: 250px;
+  }
+
+  .branding .hero {
+    font-size: 2.2rem;
+  }
+
+  .branding p {
+    font-size: 1.2rem;
+  }
+
+  .footer .top li a {
+    display: block;
+  }
+}

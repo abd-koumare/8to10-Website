@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb74d"/>
+      <stop offset="1" stop-color="#71c9ce"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_1" data-name="Groupe 1" transform="translate(-1 354)">
+    <path id="iconmonstr-process-2" d="M600,475H575V420C528.675,525.925,422.925,600,300,600,134.425,600,0,465.575,0,300H25c0,151.775,123.225,275,275,275,116.5,0,216.175-72.6,256.225-175H500V375H600ZM100,225H0V125H25v55C71.325,74.075,177.075,0,300,0,465.575,0,600,134.425,600,300H575C575,148.225,451.775,25,300,25,183.5,25,83.825,97.6,43.775,200H100v25Z" transform="translate(1 -354)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+    <text id="_10" data-name="10" transform="translate(161 34)" fill="#71c9ce" font-size="250" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">10</tspan></text>
+    <text id="_8" data-name="8" transform="translate(114 104)" fill="#71c9ce" font-size="150" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">8</tspan></text>
+  </g>
+</svg>
