@@ -24,7 +24,7 @@ body {
   margin-top: 150px;
 }
 .branding .about-us .headline {
-  color: #ffb74d;
+  color: #71c9ce;
 }
 .branding .about-us .gift img {
   height: 150px;
@@ -45,11 +45,11 @@ body {
   color: #000;
 }
 .branding .about-us .footer .top li a {
+  text-decoration: none;
   color: #000;
   font-weight: bold;
 }
 .branding .about-us .footer .top li a:hover {
-  text-decoration: underline;
   color: gray;
 }
 .branding .about-us .footer div {
@@ -109,9 +109,5 @@ body {
 
   .branding p {
     font-size: 1.2rem;
-  }
-
-  .footer .top li a {
-    display: block;
   }
 }
